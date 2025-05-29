@@ -1,0 +1,58 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-image: url('woman.png');
+    background-size: cover;  
+    background-position: center; 
+}
+p{
+    color:black;
+    text-align: center;
+}
+.logoImage {
+    width: 25%;
+    height: auto;
+}
+.logoSpan {
+    margin: 1em;
+    font-size: 5em;
+    color: black;
+    font-weight: bold;
+}
+#how-it-works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    color: green;
+    font-size: 2em;
+}
+.listContainer{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.carpoolImage{
+    width: 25%;
+    height:auto;
+    padding:1em;
+}
+.googleAppstore{
+    height: 100px;
+    width: auto;
+    padding: 1em;
+}
+#pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
